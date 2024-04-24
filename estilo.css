@@ -4,7 +4,7 @@ Modelo de caixa
 
 /* class = . */
 /* id = # */
-
+/*
 .conteudo{
     border: 1px solid red;
     /*
@@ -15,7 +15,7 @@ Modelo de caixa
     */
     /* padding: 20px 15px 10px 5px; */
     
-    padding: 20px; /* maneiras de aplicar espaçamento dentro das caixas */
+   /* padding: 20px; /* maneiras de aplicar espaçamento dentro das caixas */
 
     /*
     margin-top: 20px;
@@ -23,13 +23,24 @@ Modelo de caixa
     margin-left: 20px;
     margin-bottom: 20px;
     */
-    margin: 10px;
+  /*  margin: 10px;
 
-    width: 150px; 
+ /*   width: 150px; 
 }
 
 .conteudo2{
     margin: 5px; /* Observação: a margem pega o valor da margem maior quando entra em colisão */
-    width: 150px;
+ /*   width: 150px;
     border: 1px solid red;
+}
+*/
+
+#noticia{
+    background: f9f9f9;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+h2{
+    margin: 0px;
 }
