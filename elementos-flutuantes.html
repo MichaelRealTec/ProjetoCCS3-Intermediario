@@ -14,8 +14,24 @@
                 width: 200px;
                 height: 200px;
                 margin: 10px;  /* espaçamento entre as divs */
-                float: left;
+                float: right;
             }
+
+            .conteudo-zero{
+                background: red;
+                border: 1px solid gray;
+                width: 200px;
+                height: 200px;
+                margin: 10px;
+        
+            }
+
+            .clear{
+                clear: both; /* Limpa o fluxo de elementos flutuantes */
+                /* deixa o texto abaixo dos elementos div */
+                /* both = ambos (limpa tanto para esquerda quanto para a direita) */
+            }
+
             /*
             .conteudo1{
                 background: red;
@@ -26,19 +42,35 @@
                 float: left;
             }
             */
+            #principal{
+                border: 5px solid red;
+                background: green;
+            }
 
        </style>
     </head>
     <body>
-        <div class="conteudo">
-            Conteúdo 1
-        </div>
-        <div class="conteudo">
-            Conteúdo 2
-        </div>
-        <div class="conteudo">
-            Conteúdo 3
+        <div id="principal">
+            <div class="conteudo">
+                Conteúdo 1
+            </div>
+            <div class="conteudo">
+                Conteúdo 2
+            </div>
+            <div class="conteudo">
+                Conteúdo 3
+            </div>
+
+            <p class="clear">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium mauris eget ligula blandit auctor. Aliquam in hendrerit erat, a ultricies dolor. Praesent sollicitudin elit nec nisi consectetur convallis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque eleifend accumsan condimentum. Sed quis ultricies ante, a condimentum ante. Integer sit amet diam vel velit convallis varius. Nunc aliquet ac nisi sed auctor. Pellentesque at arcu hendrerit, faucibus purus in, consequat purus. Vivamus ac erat mauris. Aliquam commodo egestas tellus, non commodo tortor tincidunt in. In pharetra justo ut turpis hendrerit commodo. Curabitur eget maximus dui
+
+            <!--
+            <div class="clear">
+                 Clear = Limpeza do fluxo float
+            </div>
+            -->
         </div>
 
+              
     </body>
 </html>
