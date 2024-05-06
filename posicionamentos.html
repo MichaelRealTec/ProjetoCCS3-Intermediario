@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>
+            Posicionamentos (static, relative, absolute e fixed)
+        </title>
+        <meta charset="utf-8"/>
+        <style type="text/css">
+            /* Usando CSS */
+            body{
+                background: #007fc7;
+            }
+            #container{
+                background: #FFF;
+                width:800px;
+                margin: 10px auto;
+                padding: 10px;
+            }
+            h1{
+                /* position: static; = posicionamento padrão dos elementos */ 
+                
+            }
+            p{
+                /* position: static; = posicionamento padrão dos elementos */
+                width: 300px;
+            }
+            .relative{
+                border: 1px solid red;
+                position: relative; /* top, right, bottom e left 
+                top: 0px;
+                left: 0px;
+                right: 20px */
+                bottom: -20px;
+            }
+            /* Fim CSS */
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <h1>Posicionamentos</h1>
+            <p>
+                P1 - Container de posicionamentos: static, relative, absolute, fixed. Treinando o posicionamento.
+                Container de posicionamentos: static, relative, absolute, fixed. Treinando o posicionamento.
+            </p>
+            <p class="relative">
+                P2 - Container de posicionamentos: static, relative, absolute, fixed. Treinando o posicionamento.
+                Container de posicionamentos: static, relative, absolute, fixed. Treinando o posicionamento.
+            </p>
+            <p>
+                P3 - Container de posicionamentos: static, relative, absolute, fixed. Treinando o posicionamento.
+                Container de posicionamentos: static, relative, absolute, fixed. Treinando o posicionamento.
+            </p>
+        </div>
+    </body>
+</html>
